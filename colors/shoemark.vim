@@ -10,7 +10,7 @@ hi StatusLine  ctermfg=253 ctermbg=None guifg=#dadada guibg=#000000
 hi Search      NONE
 hi Search      ctermbg=59 guibg=#5f5f5f
 hi IncSearch   NONE
-hi link IncSearch Search
+hi IncSearch   cterm=bold,underline ctermbg=59 gui=bold,underline guibg=#5f5f5f
 hi Comment     ctermfg=42 gui=italic guifg=#00d787
 hi Todo        cterm=bold,underline ctermfg=215 ctermbg=None gui=bold,italic guifg=#ffaf5f guibg=#000000
 hi PreProc     ctermfg=213 guifg=#ff87ff
